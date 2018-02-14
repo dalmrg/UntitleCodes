@@ -1,0 +1,53 @@
+header {
+  height: 450px;
+  transition-duration: 0.9s; }
+  header nav ul li a[href^="pages/"] {
+    font-size: 100%;
+    font-weight: 100; }
+    header nav ul li a[href^="pages/"]:hover {
+      border-top: 2px solid green;
+      border-bottom: 1px solid white;
+      background-color: rgba(0, 0, 0, 0.5); }
+
+.Unt-1 {
+  font-weight: 100;
+  font-size: 280%; }
+
+.Unt-2 {
+  font-size: 45px;
+  line-height: 1.1;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900; }
+  @media screen and (max-width: 400px) {
+    .Unt-2 {
+      margin-top: -5px;
+      font-size: 30px;
+      font-weight: 900; } }
+
+.Unt-4 {
+  font-size: 200%;
+  color: white;
+  width: 80%;
+  font-weight: 100; }
+  @media screen and (max-width: 400px) {
+    .Unt-4 {
+      font-size: 70%; } }
+
+#sidenav-overlay {
+  opacity: 0.3 !important; }
+
+.Unt-3 {
+  width: 100%;
+  height: 150px; }
+
+.Unt-4 {
+  font-weight: 200;
+  font-size: 150%;
+  margin-top: -5px; }
+
+.Unt-5 {
+  font-weight: 300;
+  font-size: 180%;
+  margin-top: -5px; }
+
+/*# sourceMappingURL=main.css.map */
